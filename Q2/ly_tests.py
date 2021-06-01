@@ -7,7 +7,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(lpy_1(2000), "2000 is a leap year")
 
     def test_two(self):
-        self.assertEqual(lpy_2(60), "60 is not a leap year")
+        self.assertEqual(lpy_2(100), "100 is not a leap year")
 
 
 if __name__ == "__main__":
